@@ -1,0 +1,70 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSimpleTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_simple_tabs"
+            android:layout_marginTop="@dimen/btn_margin_top"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnScrollableTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scrollable_tabs"
+            android:layout_marginTop="@dimen/btn_margin_top"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnIconTextTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_icon_text_tabs"
+            android:layout_marginTop="@dimen/btn_margin_top"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnIconTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_icon_tabs"
+            android:layout_marginTop="@dimen/btn_margin_top"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnCustomIconTabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_custom_icon_tabs"
+            android:layout_marginTop="@dimen/btn_margin_top"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
